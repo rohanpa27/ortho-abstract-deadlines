@@ -20,11 +20,14 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
 .body{flex:1;min-width:0}h3{margin:0 0 4px;font-size:1.02rem}.meta,.notes{margin:2px 0;color:var(--mute);font-size:.9rem}
 .flag{display:inline-block;margin:6px 0 2px;padding:2px 8px;border-radius:999px;background:var(--warnbg);color:var(--warn);font-size:.78rem}
 .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.sec{font-size:1.1rem;margin:28px 0 10px;display:flex;gap:8px;align-items:baseline}.sec span{color:var(--mute);font-size:.85rem;font-weight:400}
+details.sec{display:block}details.sec summary{cursor:pointer;font-size:1.1rem;font-weight:700;margin-bottom:10px}.secnote{color:var(--mute);font-size:.9rem;margin:-4px 0 12px}
+.card.closed,.card.awaiting{opacity:.92}.chips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}.chips a{color:var(--accent);font-size:.9rem}
 .foot{color:var(--mute);font-size:.85rem;margin-top:28px}code{background:var(--line);padding:1px 5px;border-radius:4px;font-size:.85em;word-break:break-all}
 @media(max-width:520px){.card{flex-direction:column;gap:8px}.when{text-align:left;display:flex;gap:8px;align-items:baseline}}
 </style></head><body><div class="wrap">
 <h1>Ortho Abstract Deadlines</h1>
-<p class="sub">16 open or upcoming deadlines &middot; last updated Oct 13, 2026</p>
+<p class="sub">16 open deadlines, 16 not yet posted, 19 recently closed &middot; updated Oct 13, 2026</p>
 
 <div class="panel"><h2>Get every deadline in your Google Calendar</h2>
 <div class="row"><a class="btn" href="all.ics" download>Download all deadlines (.ics)</a></div>
@@ -37,8 +40,10 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
 &middot; <a href="#" id="gsub">open in Google Calendar</a>. Note: Google does not carry reminders over from subscribed feeds, so set the calendar's own notifications (30 days and 7 days) under its settings.</p></div>
 
 <div class="row" style="margin-bottom:14px"><input type="search" id="q" placeholder="Search conferences (e.g. spine, hand, AAOS)" aria-label="Search"></div>
+<div class="chips"><a href="#open">Open deadlines</a><a href="#soon">Not posted yet</a><a href="#closed">Recently closed</a></div>
 <div id="list">
-<article class="card" data-name="american college of foot and ankle surgeons (acfas) 86th annual scientific conference" data-date="2026-10-13">
+<h2 class="sec" id="open">Open deadlines <span>16</span></h2>
+<article class="card open" data-name="american college of foot and ankle surgeons (acfas) 86th annual scientific conference">
   <div class="when"><span class="d">Oct 13</span><span class="y">2026</span><span class="in">today</span></div>
   <div class="body">
     <h3>American College of Foot and Ankle Surgeons (ACFAS) 86th Annual Scientific Conference</h3>
@@ -47,7 +52,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-american-college-of-foot-and-ankle-surgeons-acfas-86th-annua.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://www.acfas.org/education-professional-development/annual-scientific-conference/call-for-abstracts" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="jrgos resident &amp; medical student abstract competition (held at aaos 2027)" data-date="2026-10-19">
+<article class="card open" data-name="jrgos resident &amp; medical student abstract competition (held at aaos 2027)">
   <div class="when"><span class="d">Oct 19</span><span class="y">2026</span><span class="in">in 6 days</span></div>
   <div class="body">
     <h3>JRGOS Resident &amp; Medical Student Abstract Competition (held at AAOS 2027)</h3>
@@ -56,7 +61,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-jrgos-resident-medical-student-abstract-competition-held-at-.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://www.gladdensociety.org/jrgos-resident-and-medical-student-research-competition/" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="canadian orthopaedic association (coa) 2027 annual meeting (abstracts + symposium topics)" data-date="2026-10-20">
+<article class="card open" data-name="canadian orthopaedic association (coa) 2027 annual meeting (abstracts + symposium topics)">
   <div class="when"><span class="d">Oct 20</span><span class="y">2026</span><span class="in">in 7 days</span></div>
   <div class="body">
     <h3>Canadian Orthopaedic Association (COA) 2027 Annual Meeting (abstracts + symposium topics)</h3>
@@ -65,7 +70,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-canadian-orthopaedic-association-coa-2027-annual-meeting-abs.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://coa-aco.org/annual-meeting/" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="aaos 2027 - late-breaking abstracts" data-date="2026-10-30">
+<article class="card open" data-name="aaos 2027 - late-breaking abstracts">
   <div class="when"><span class="d">Oct 30</span><span class="y">2026</span><span class="in">in 17 days</span></div>
   <div class="body">
     <h3>AAOS 2027 - Late-Breaking Abstracts</h3>
@@ -74,7 +79,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-aaos-2027-late-breaking-abstracts.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://www.aaos.org/annual/explore-the-program/abstracts-applications/" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="american college of sports medicine (acsm) 74th annual meeting" data-date="2026-11-04">
+<article class="card open" data-name="american college of sports medicine (acsm) 74th annual meeting">
   <div class="when"><span class="d">Nov 4</span><span class="y">2026</span><span class="in">in 22 days</span></div>
   <div class="body">
     <h3>American College of Sports Medicine (ACSM) 74th Annual Meeting</h3>
@@ -83,7 +88,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-american-college-of-sports-medicine-acsm-74th-annual-meeting.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://acsm.org/events-general/annual-meeting/abstracts/" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="orthopaedic research society (ors) 2027 - late-breaking abstracts" data-date="2026-11-09">
+<article class="card open" data-name="orthopaedic research society (ors) 2027 - late-breaking abstracts">
   <div class="when"><span class="d">Nov 9</span><span class="y">2026</span><span class="in">in 27 days</span></div>
   <div class="body">
     <h3>Orthopaedic Research Society (ORS) 2027 - Late-Breaking Abstracts</h3>
@@ -92,7 +97,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-orthopaedic-research-society-ors-2027-late-breaking-abstract.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://www.ors.org/futureannualmeetings/" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="american medical society for sports medicine (amssm) 2027 - case abstracts" data-date="2026-11-10">
+<article class="card open" data-name="american medical society for sports medicine (amssm) 2027 - case abstracts">
   <div class="when"><span class="d">Nov 10</span><span class="y">2026</span><span class="in">in 28 days</span></div>
   <div class="body">
     <h3>American Medical Society for Sports Medicine (AMSSM) 2027 - Case Abstracts</h3>
@@ -101,7 +106,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-american-medical-society-for-sports-medicine-amssm-2027-case.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://www.amssm.org/Submissions.php" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="european federation of national associations of orthopaedics and traumatology (efort) 28th annual congress" data-date="2026-11-15">
+<article class="card open" data-name="european federation of national associations of orthopaedics and traumatology (efort) 28th annual congress">
   <div class="when"><span class="d">Nov 15</span><span class="y">2026</span><span class="in">in 33 days</span></div>
   <div class="body">
     <h3>European Federation of National Associations of Orthopaedics and Traumatology (EFORT) 28th Annual Congress</h3>
@@ -110,7 +115,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-european-federation-of-national-associations-of-orthopaedics.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://congress.efort.org/" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="american medical society for sports medicine (amssm) 2027 - research abstracts" data-date="2026-12-01">
+<article class="card open" data-name="american medical society for sports medicine (amssm) 2027 - research abstracts">
   <div class="when"><span class="d">Dec 1</span><span class="y">2026</span><span class="in">in 49 days</span></div>
   <div class="body">
     <h3>American Medical Society for Sports Medicine (AMSSM) 2027 - Research Abstracts</h3>
@@ -119,7 +124,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-american-medical-society-for-sports-medicine-amssm-2027-rese.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://www.amssm.org/Submissions.php" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="southern orthopaedic association (soa) 2027 annual meeting" data-date="2027-01-04">
+<article class="card open" data-name="southern orthopaedic association (soa) 2027 annual meeting">
   <div class="when"><span class="d">Jan 4</span><span class="y">2027</span><span class="in">in 83 days</span></div>
   <div class="body">
     <h3>Southern Orthopaedic Association (SOA) 2027 Annual Meeting</h3>
@@ -128,7 +133,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-southern-orthopaedic-association-soa-2027-annual-meeting.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://www.soaassn.org/abstract-submission-instructions" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="western orthopaedic association (woa) 91st annual meeting" data-date="2027-01-11">
+<article class="card open" data-name="western orthopaedic association (woa) 91st annual meeting">
   <div class="when"><span class="d">Jan 11</span><span class="y">2027</span><span class="in">in 90 days</span></div>
   <div class="body">
     <h3>Western Orthopaedic Association (WOA) 91st Annual Meeting</h3>
@@ -137,7 +142,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-western-orthopaedic-association-woa-91st-annual-meeting.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://www.woa-assn.org/abstract-submission" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="international society for the advancement of spine surgery (isass27) 27th annual conference" data-date="2027-01-11">
+<article class="card open" data-name="international society for the advancement of spine surgery (isass27) 27th annual conference">
   <div class="when"><span class="d">Jan 11</span><span class="y">2027</span><span class="in">in 90 days</span></div>
   <div class="body">
     <h3>International Society for the Advancement of Spine Surgery (ISASS27) 27th Annual Conference</h3>
@@ -146,7 +151,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-international-society-for-the-advancement-of-spine-surgery-i.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://isass.org/isass27/" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="american society for surgery of the hand (assh) 82nd annual meeting" data-date="2027-01-26">
+<article class="card open" data-name="american society for surgery of the hand (assh) 82nd annual meeting">
   <div class="when"><span class="d">Jan 26</span><span class="y">2027</span><span class="in">in 105 days</span></div>
   <div class="body">
     <h3>American Society for Surgery of the Hand (ASSH) 82nd Annual Meeting</h3>
@@ -155,7 +160,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-american-society-for-surgery-of-the-hand-assh-82nd-annual-me.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://www.assh.org/annualmeeting/program/abstract-submissions" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="clinical orthopaedic society (cos) 115th annual meeting" data-date="2027-02-15">
+<article class="card open" data-name="clinical orthopaedic society (cos) 115th annual meeting">
   <div class="when"><span class="d">Feb 15</span><span class="y">2027</span><span class="in">in 125 days</span></div>
   <div class="body">
     <h3>Clinical Orthopaedic Society (COS) 115th Annual Meeting</h3>
@@ -164,7 +169,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-clinical-orthopaedic-society-cos-115th-annual-meeting.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://www.cosociety.org/abstract-submission-policies-and-guidelines" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="eastern orthopaedic association (eoa) 58th annual meeting" data-date="2027-03-01">
+<article class="card open" data-name="eastern orthopaedic association (eoa) 58th annual meeting">
   <div class="when"><span class="d">Mar 1</span><span class="y">2027</span><span class="in">in 139 days</span></div>
   <div class="body">
     <h3>Eastern Orthopaedic Association (EOA) 58th Annual Meeting</h3>
@@ -173,7 +178,7 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-eastern-orthopaedic-association-eoa-58th-annual-meeting.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://www.eoa-assn.org/abstract-submission-policies-and-guidelines" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
-<article class="card" data-name="limb lengthening and reconstruction society (llrs) 36th annual scientific meeting" data-date="2027-04-09">
+<article class="card open" data-name="limb lengthening and reconstruction society (llrs) 36th annual scientific meeting">
   <div class="when"><span class="d">Apr 9</span><span class="y">2027</span><span class="in">in 178 days</span></div>
   <div class="body">
     <h3>Limb Lengthening and Reconstruction Society (LLRS) 36th Annual Scientific Meeting</h3>
@@ -182,12 +187,332 @@ input[type=search]{flex:1;min-width:200px;padding:10px 12px;border-radius:8px;bo
     <div class="actions"><a class="btn" href="d-limb-lengthening-and-reconstruction-society-llrs-36th-annual.ics" download>Add to calendar (.ics)</a><a class="btn ghost" href="https://www.llrs.org/events/" target="_blank" rel="noopener">Official site</a></div>
   </div>
 </article>
+<h2 class="sec" id="soon">Deadline not posted yet <span>16</span></h2>
+<p class="secnote">The meeting is confirmed, but the conference has not published an abstract deadline. These get a calendar button as soon as a date is posted.</p>
+<article class="card awaiting" data-name="asian federation of foot &amp; ankle surgeons (affas)">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>Asian Federation of Foot &amp; Ankle Surgeons (AFFAS)</h3>
+    <p class="meta">Page is stale (2025 meeting) &middot; Last listed: Oct 30-Nov 1, 2025, Singapore</p>
+    <p class="notes">Old tracker said &#x27;From Dec 2026&#x27;; not supported by the page.</p><span class="flag">some details unconfirmed</span>
+    <div class="actions"><a class="btn ghost" href="https://www.affas.org/meeting.html" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="llrs / posna joint specialty day 2027">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>LLRS / POSNA Joint Specialty Day 2027</h3>
+    <p class="meta">Abstract deadline not listed &middot; Mar 6, 2027 - The Venetian, Las Vegas, NV</p>
+    
+    <div class="actions"><a class="btn ghost" href="https://www.llrs.org/events/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="texas orthopaedic association (toa) 2027 annual conference">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>Texas Orthopaedic Association (TOA) 2027 Annual Conference</h3>
+    <p class="meta">Not found &middot; Apr 1-3, 2027 - W Dallas, TX</p>
+    
+    <div class="actions"><a class="btn ghost" href="https://toa.org/2027-annual-conference/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="the association of bone and joint surgeons (abjs) 2027">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>The Association of Bone and Joint Surgeons (ABJS) 2027</h3>
+    <p class="meta">Call for abstracts is OPEN; deadline not stated on page &middot; Apr 14-18, 2027</p>
+    <p class="notes">Members only. Check site for deadline.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.abjs.org/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="arthroscopy association of north america (aana) 2027 annual meeting">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>Arthroscopy Association of North America (AANA) 2027 Annual Meeting</h3>
+    <p class="meta">Not found on official pages &middot; May 13-15, 2027 - Diplomat Beach Resort, Hollywood, FL</p>
+    <p class="notes">Do not confuse with aana.com (nurse anesthetists).</p>
+    <div class="actions"><a class="btn ghost" href="https://rise.aana.org/aanaimis/annualmeeting" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="scoliosis research society (srs) 62nd annual meeting">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>Scoliosis Research Society (SRS) 62nd Annual Meeting</h3>
+    <p class="meta">Not posted (2025 cycle ended early Feb) &middot; Sep 14-18, 2027 - New Orleans, LA</p>
+    
+    <div class="actions"><a class="btn ghost" href="https://www.srs.org/SRS-Events/62nd-Annual-Meeting" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="american orthopaedic foot &amp; ankle society (aofas) 2027 annual meeting">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>American Orthopaedic Foot &amp; Ankle Society (AOFAS) 2027 Annual Meeting</h3>
+    <p class="meta">Not posted (2026 cycle ended Mar 3) &middot; Oct 13-16, 2027 - San Antonio, TX</p>
+    <p class="notes">Future: 2028 Oct 18-21 Boston; 2029 Oct 3-6 Portland.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.aofas.org/annual-meeting" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="american shoulder and elbow surgeons (ases) 2027 annual meeting">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>American Shoulder and Elbow Surgeons (ASES) 2027 Annual Meeting</h3>
+    <p class="meta">Not posted &middot; Oct 13-16, 2027 - Gaylord National, National Harbor, MD</p>
+    <p class="notes">NEW. Members-only submissions historically.</p>
+    <div class="actions"><a class="btn ghost" href="https://ases-assn.org/meetings/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="american college of surgeons (acs) clinical congress 2027">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>American College of Surgeons (ACS) Clinical Congress 2027</h3>
+    <p class="meta">Call for abstracts not yet open (2026 cycle ended Mar 2) &middot; Oct 16-19, 2027 - San Diego, CA</p>
+    <p class="notes">NEW.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.facs.org/for-medical-professionals/conferences-and-meetings/clinical-congress-2027/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="musculoskeletal tumor society (msts) 2027">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>Musculoskeletal Tumor Society (MSTS) 2027</h3>
+    <p class="meta">Not posted &middot; Oct 20, 2027 start (Charleston, SC per old tracker)</p>
+    <p class="notes">2026 meeting Oct 28-31, Miami (old tracker said Oct 29-31).</p><span class="flag">some details unconfirmed</span>
+    <div class="actions"><a class="btn ghost" href="https://www.msts.org/annual-meeting" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="orthopaedic trauma association (ota) 2027 annual meeting">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>Orthopaedic Trauma Association (OTA) 2027 Annual Meeting</h3>
+    <p class="meta">Not posted &middot; Late Oct 2027 - New Orleans, LA (listings differ: Oct 26/27-30)</p>
+    
+    <div class="actions"><a class="btn ghost" href="https://ota.org/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="american association of hip and knee surgeons (aahks) 2027 annual meeting">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>American Association of Hip and Knee Surgeons (AAHKS) 2027 Annual Meeting</h3>
+    <p class="meta">Not yet posted (2026 cycle: symposia May 1, abstracts Jun 1) &middot; Nov 4-7, 2027 - Gaylord Texan, Grapevine, TX</p>
+    
+    <div class="actions"><a class="btn ghost" href="https://meeting.aahks.org/submissions/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="ifssh-ifsht 2028 xviith triennial congress">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>IFSSH-IFSHT 2028 XVIIth Triennial Congress</h3>
+    <p class="meta">Not posted &middot; Oct 23-27, 2028 - Singapore Convention &amp; Exhibition Centre</p>
+    
+    <div class="actions"><a class="btn ghost" href="https://ifssh-ifsht2028.org/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="american osteopathic academy of orthopedics (aoao) annual fall meeting">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>American Osteopathic Academy of Orthopedics (AOAO) Annual Fall Meeting</h3>
+    <p class="meta">Not found on meeting page &middot; 2026: Oct 29-31, Gaylord Pacific, Chula Vista, CA. 2027: Oct 28-30, The Broadmoor, Colorado Springs, CO</p>
+    <p class="notes">NEW from Penn list. Check AOAO Meeting Guide for abstract info.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.aoao.org/meetings/annual" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="german foot and ankle society (d.a.f.) congress 2027">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>German Foot and Ankle Society (D.A.F.) Congress 2027</h3>
+    <p class="meta">Opens Nov 2026; deadline not posted &middot; 2027 (dates/venue not on page)</p>
+    <p class="notes">Old tracker listed 2026 cycle (closed May 8, 2026).</p>
+    <div class="actions"><a class="btn ghost" href="https://fusskongress.de/programm-abstracts/abstracteinreichung" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card awaiting" data-name="north american spine society (nass) 2027 annual meeting">
+  <div class="when"><span class="d">TBD</span><span class="y">not posted</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>North American Spine Society (NASS) 2027 Annual Meeting</h3>
+    <p class="meta">Not posted &middot; TBD</p>
+    <p class="notes">2026 meeting is Oct 14-17, San Antonio.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.spine.org/AM" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<details class="sec" id="closed"><summary>Recently closed <span>19</span></summary>
+<p class="secnote">Submission window has passed; the meeting is still ahead.</p>
+<article class="card closed" data-name="cervical spine research society (csrs) 54th annual meeting">
+  <div class="when"><span class="d">Apr 15</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>Cervical Spine Research Society (CSRS) 54th Annual Meeting</h3>
+    <p class="meta">Dec 2-5, 2026 - Austin, TX</p>
+    <p class="notes">2027 dates not posted.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.csrs.org/meetings/am26/abstracts/submission-guidelines" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="society of military orthopaedic surgeons (somos) 2026">
+  <div class="when"><span class="d">Jun 8</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>Society of Military Orthopaedic Surgeons (SOMOS) 2026</h3>
+    <p class="meta">Extended &middot; Dec 7-11, 2026 - The Hythe, Vail, CO</p>
+    <p class="notes">CORRECTED: old tracker said Jun 1.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.somos.org/abstract-submission" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="current concepts in joint replacement (ccjr) winter 2026">
+  <div class="when"><span class="d">Closed</span><span class="y">&nbsp;</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>Current Concepts in Joint Replacement (CCJR) Winter 2026</h3>
+    <p class="meta">2026 form closed; exact date not posted &middot; Dec 9-12, 2026 - Hyatt Regency Grand Cypress, Orlando, FL</p>
+    <p class="notes">NEW from Penn list.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.ccjr.com/posters" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="american association for hand surgery (aahs) 2027 annual meeting">
+  <div class="when"><span class="d">Jul 13</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>American Association for Hand Surgery (AAHS) 2027 Annual Meeting</h3>
+    <p class="meta">Page: &#x27;2027 Abstract Submission is Now Closed&#x27; &middot; Jan 26-30, 2027 (venue: old tracker says JW Marriott Turnberry, Aventura; AAHS page links Turnberry Miami - confirm)</p>
+    <span class="flag">some details unconfirmed</span>
+    <div class="actions"><a class="btn ghost" href="https://meeting.handsurgery.org/Abstract-Submission/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="orthopedics today hawaii (healio)">
+  <div class="when"><span class="d">Sep 15</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>Orthopedics Today Hawaii (Healio)</h3>
+    <p class="meta">Jan 2027, Hawaii (dates/location not on abstract page)</p>
+    <p class="notes">NEW from Penn list.</p>
+    <div class="actions"><a class="btn ghost" href="https://attend.healiolive.com/othawaii/abstracts" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="academic surgical congress (asc) 2027">
+  <div class="when"><span class="d">Aug 17</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>Academic Surgical Congress (ASC) 2027</h3>
+    <p class="meta">Official page conflicts: Aug 7 (letter), Aug 17 (banner), Aug 9 (sidebar) &middot; Feb 9-11, 2027 - Washington Hilton, Washington, DC</p>
+    <p class="notes">Closed regardless.</p><span class="flag">some details unconfirmed</span>
+    <div class="actions"><a class="btn ghost" href="https://academicsurgicalcongress.us/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="american orthopaedic foot &amp; ankle society (aofas) winter meeting 2027">
+  <div class="when"><span class="d">Sep 28</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>American Orthopaedic Foot &amp; Ankle Society (AOFAS) Winter Meeting 2027</h3>
+    <p class="meta">11:59 PM Central &middot; Feb 11-13, 2027 - Orlando, FL</p>
+    <p class="notes">Was &#x27;upcoming&#x27; in old tracker; now closed.</p>
+    <div class="actions"><a class="btn ghost" href="https://aofas.secure-platform.com/site/page/WM2027" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="spine summit (dspn) 2027 - 43rd annual">
+  <div class="when"><span class="d">Sep 8</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>Spine Summit (DSPN) 2027 - 43rd Annual</h3>
+    <p class="meta">Extended deadline; page says NOW CLOSED &middot; Feb 18-21, 2027 - Disney&#x27;s Yacht &amp; Beach Club, Orlando, FL</p>
+    
+    <div class="actions"><a class="btn ghost" href="https://dspnspinesummit.org/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="orthopaedic research society (ors) 2027 - main abstracts">
+  <div class="when"><span class="d">Aug 31</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>Orthopaedic Research Society (ORS) 2027 - Main Abstracts</h3>
+    <p class="meta">Feb 19-23, 2027 - Moscone West, San Francisco, CA</p>
+    
+    <div class="actions"><a class="btn ghost" href="https://www.ors.org/futureannualmeetings/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="aaos 2027 - papers / posters / eposters">
+  <div class="when"><span class="d">Jun 8</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>AAOS 2027 - Papers / Posters / ePosters</h3>
+    <p class="meta">5:00 PM CT (extended from Jun 1) &middot; Mar 3-6, 2027 - Venetian, Las Vegas, NV</p>
+    <p class="notes">OVT Plus closed Jul 15; OrthoDome closed Aug 31.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.aaos.org/annual/explore-the-program/abstracts-applications/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="ruth jackson orthopaedic society (rjos) research symposium">
+  <div class="when"><span class="d">Sep 14</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>Ruth Jackson Orthopaedic Society (RJOS) Research Symposium</h3>
+    <p class="meta">Mar 3, 2027 (location not listed)</p>
+    <p class="notes">NEW from Penn list. Presenters must be RJOS members.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.rjos.org/events/research-symposium" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="srs regional scientific meeting - latin america 2027">
+  <div class="when"><span class="d">Jul 30</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>SRS Regional Scientific Meeting - Latin America 2027</h3>
+    <p class="meta">Official page conflicts: Jul 30 and Aug 9, 2026 (old tracker: Jun 30). Closed regardless &middot; Mar 5-6, 2027 - Sheraton Buenos Aires, Argentina</p>
+    <p class="notes">Acceptance deadline Oct 9, 2026 (for accepted authors).</p><span class="flag">some details unconfirmed</span>
+    <div class="actions"><a class="btn ghost" href="https://www.srs.org/Meetings-Conferences/Regional-Scientific-Meeting/RSM-2027" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="mid-america orthopaedic association (maoa) 44th annual meeting">
+  <div class="when"><span class="d">Jul 1</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>Mid-America Orthopaedic Association (MAOA) 44th Annual Meeting</h3>
+    <p class="meta">Submission &#x27;now closed&#x27;; acceptances by Oct 1, 2026; presentation confirmation due Dec 1, 2026 &middot; Apr 15-18, 2027 (page shows Apr 15 only; location from prior tracker: Miramar Beach, FL)</p>
+    <p class="notes">ACTION: presenters confirm by Dec 1, 2026.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.maoa.org/2027-annual-meeting" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="pediatric orthopaedic society of north america (posna) 2027 annual meeting">
+  <div class="when"><span class="d">Sep 30</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>Pediatric Orthopaedic Society of North America (POSNA) 2027 Annual Meeting</h3>
+    <p class="meta">12:00 PM CT &middot; Apr 27-29, 2027 - Indianapolis, IN</p>
+    <p class="notes">One FAQ PDF misprints Sep 30, 2027. Notification Dec 2026; registration opens Feb 16, 2027.</p>
+    <div class="actions"><a class="btn ghost" href="https://posna.org/annual-meeting" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="american orthopaedic association (aoa) 140th annual leadership meeting">
+  <div class="when"><span class="d">Jul 10</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>American Orthopaedic Association (AOA) 140th Annual Leadership Meeting</h3>
+    <p class="meta">Window May 13-Jul 10, 2026 &middot; May 10-15, 2027 - Loews Atlanta Hotel, Atlanta, GA</p>
+    <p class="notes">CORRECTED: old tracker said Jul 1.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.aoassn.org/abstract-symposium-submissions/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="international society of arthroscopy, knee surgery and orthopaedic sports medicine (isakos) 16th biennial congress">
+  <div class="when"><span class="d">Aug 4</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>International Society of Arthroscopy, Knee Surgery and Orthopaedic Sports Medicine (ISAKOS) 16th Biennial Congress</h3>
+    <p class="meta">11:59 PM PDT &middot; May 30-Jun 2, 2027 - Sydney, Australia</p>
+    <p class="notes">Closed.</p>
+    <div class="actions"><a class="btn ghost" href="https://isakos-congress.com/abstract-submission/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="global spine congress (gsc) 2027">
+  <div class="when"><span class="d">Oct 8</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>Global Spine Congress (GSC) 2027</h3>
+    <p class="meta">Original Sep 21, extended to Oct 8; now closed &middot; Jun 9-12, 2027 - Yokohama, Japan</p>
+    <p class="notes">CORRECTED: old tracker had Sep 21. Notifications by Dec 2, 2026.</p>
+    <div class="actions"><a class="btn ghost" href="https://globalspinecongress.org/abstract-submission/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="american orthopaedic society for sports medicine (aossm) 2027 annual meeting">
+  <div class="when"><span class="d">Sep 9</span><span class="y">2026</span><span class="in">closed</span></div>
+  <div class="body">
+    <h3>American Orthopaedic Society for Sports Medicine (AOSSM) 2027 Annual Meeting</h3>
+    <p class="meta">Jul 7-10, 2027 - Boston, MA</p>
+    <p class="notes">Decisions Jan 2027. Specialty Day notifications late Jul/early Aug.</p>
+    <div class="actions"><a class="btn ghost" href="https://www.sportsmed.org/education/abstract-and-instructional-course-submissions" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+<article class="card closed" data-name="american society for peripheral nerve (aspn) 2027">
+  <div class="when"><span class="d">Closed</span><span class="y">&nbsp;</span><span class="in">&nbsp;</span></div>
+  <div class="body">
+    <h3>American Society for Peripheral Nerve (ASPN) 2027</h3>
+    <p class="meta">Page: &#x27;2027 Abstract Submission is Now Closed&#x27; &middot; Joint with AAHS - JW Marriott Turnberry (confirm)</p>
+    <p class="notes">NEW from Penn list.</p>
+    <div class="actions"><a class="btn ghost" href="https://meeting.peripheralnerve.org/Abstract-Submission/" target="_blank" rel="noopener">Official site</a></div>
+  </div>
+</article>
+</details>
 </div>
-<p class="foot">Deadlines were checked against each conference's official site on Oct 13, 2026. Dates can change or be extended &mdash; always confirm on the official site before relying on one. Conferences whose 2027 deadline is not yet posted are omitted until it is.</p>
+<p class="foot">Deadlines were checked against each conference's official site on Oct 13, 2026. Dates can change or be extended &mdash; always confirm on the official site before relying on one. Covers meetings and deadlines over roughly the next 10 months. Rows marked &ldquo;some details unconfirmed&rdquo; have a date or venue I could not confirm on the official page.</p>
 </div>
 <script>
 var q=document.getElementById('q');
-q.addEventListener('input',function(){var v=q.value.toLowerCase();document.querySelectorAll('.card').forEach(function(c){c.style.display=c.dataset.name.indexOf(v)>-1?'':'none'})});
+q.addEventListener('input',function(){var v=q.value.toLowerCase();document.querySelectorAll('details.sec').forEach(function(d){if(v)d.open=true});document.querySelectorAll('.card').forEach(function(c){c.style.display=c.dataset.name.indexOf(v)>-1?'':'none'})});
 var abs=new URL('all.ics',location.href).href;
 document.getElementById('feed').textContent=abs;
 document.getElementById('gsub').href='https://calendar.google.com/calendar/r?cid='+encodeURIComponent(abs.replace(/^https?:/,'webcal:'));
