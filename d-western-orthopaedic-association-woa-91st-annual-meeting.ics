@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Western Orthopaedic Association (WOA) 91st Annual Meeting
+BEGIN:VEVENT
+UID:560f253d89f4d18f2b28@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:DEADLINE: Western Orthopaedic Association (WOA) 91st Annual Meeting
+DESCRIPTION:Abstract/submission deadline.\nMeeting: Aug 4-7\, 2027 - Everli
+ ne Resort & Spa\, Olympic Valley\, CA\nSubmit / details: https://www.woa-a
+ ssn.org/abstract-submission\nAlways confirm the deadline on the official s
+ ite\; dates can change.
+URL:https://www.woa-assn.org/abstract-submission
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Western Orthopaedic Association (WOA) 9
+ 1st Annual Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Western Orthopaedic Association (WOA) 91
+ st Annual Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

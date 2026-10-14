@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Southern Orthopaedic Association (SOA) 2027 Annual Meeting
+BEGIN:VEVENT
+UID:c5a6f74572e3d62715a4@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:DEADLINE: Southern Orthopaedic Association (SOA) 2027 Annual Meetin
+ g
+DESCRIPTION:Abstract/submission deadline.\nMeeting: Jul 21-24\, 2027 - Wynd
+ ham Grand Clearwater Beach\, FL\nSubmit / details: https://www.soaassn.org
+ /abstract-submission-instructions\nAlways confirm the deadline on the offi
+ cial site\; dates can change.
+URL:https://www.soaassn.org/abstract-submission-instructions
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Southern Orthopaedic Association (SOA) 
+ 2027 Annual Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Southern Orthopaedic Association (SOA) 2
+ 027 Annual Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

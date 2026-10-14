@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Canadian Orthopaedic Association (COA) 2027 Annual Meeting (ab
+ stracts + symposium topics)
+BEGIN:VEVENT
+UID:a243b7c7402e334b8b70@ortho-deadlines
+DTSTAMP:20261014T022337Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:DEADLINE: Canadian Orthopaedic Association (COA) 2027 Annual Meetin
+ g (abstracts + symposium topics)
+DESCRIPTION:Abstract/submission deadline. Oct 20\, 2026 per context\; page 
+ gives no year or time (old tracker: 23:59 PT)\nMeeting: Jun 2-5\, 2027 - C
+ algary TELUS Convention Centre\, Calgary\, AB\nSubmit / details: https://c
+ oa-aco.org/annual-meeting/\nAlways confirm the deadline on the official si
+ te\; dates can change.
+URL:https://coa-aco.org/annual-meeting/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Canadian Orthopaedic Association (COA) 
+ 2027 Annual Meeting (abstracts + symposium topics)
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Canadian Orthopaedic Association (COA) 2
+ 027 Annual Meeting (abstracts + symposium topics)
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

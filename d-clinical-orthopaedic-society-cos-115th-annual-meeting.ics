@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Clinical Orthopaedic Society (COS) 115th Annual Meeting
+BEGIN:VEVENT
+UID:376807f7f5c2cfd6b8ac@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:DEADLINE: Clinical Orthopaedic Society (COS) 115th Annual Meeting
+DESCRIPTION:Abstract/submission deadline.\nMeeting: Sep 22-25\, 2027 - San 
+ Diego\, CA\nSubmit / details: https://www.cosociety.org/abstract-submissio
+ n-policies-and-guidelines\nAlways confirm the deadline on the official sit
+ e\; dates can change.
+URL:https://www.cosociety.org/abstract-submission-policies-and-guidelines
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Clinical Orthopaedic Society (COS) 115t
+ h Annual Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Clinical Orthopaedic Society (COS) 115th
+  Annual Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

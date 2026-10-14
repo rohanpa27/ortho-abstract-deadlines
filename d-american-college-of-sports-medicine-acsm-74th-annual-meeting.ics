@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:American College of Sports Medicine (ACSM) 74th Annual Meeting
+BEGIN:VEVENT
+UID:e414b5d98fbf52fb8174@ortho-deadlines
+DTSTAMP:20261014T022337Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:DEADLINE: American College of Sports Medicine (ACSM) 74th Annual Me
+ eting
+DESCRIPTION:Abstract/submission deadline. Noon PT\nMeeting: Jun 1-4\, 2027 
+ - Indianapolis\, IN (dates/location from prior tracker\; ACSM page gives n
+ one)\nSubmit / details: https://acsm.org/events-general/annual-meeting/abs
+ tracts/\nAlways confirm the deadline on the official site\; dates can chan
+ ge.
+URL:https://acsm.org/events-general/annual-meeting/abstracts/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: American College of Sports Medicine (AC
+ SM) 74th Annual Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: American College of Sports Medicine (ACS
+ M) 74th Annual Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

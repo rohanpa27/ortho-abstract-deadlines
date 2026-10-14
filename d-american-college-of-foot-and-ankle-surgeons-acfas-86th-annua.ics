@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:American College of Foot and Ankle Surgeons (ACFAS) 86th Annua
+ l Scientific Conference
+BEGIN:VEVENT
+UID:25a6f6ac600d25933235@ortho-deadlines
+DTSTAMP:20261014T022337Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:DEADLINE: American College of Foot and Ankle Surgeons (ACFAS) 86th 
+ Annual Scientific Conference
+DESCRIPTION:Abstract/submission deadline. 11:59 PM CST (closes TODAY)\nMeet
+ ing: Mar 11-15\, 2027 - Orange County Convention Center\, Orlando\, FL\nSu
+ bmit / details: https://www.acfas.org/education-professional-development/a
+ nnual-scientific-conference/call-for-abstracts\nAlways confirm the deadlin
+ e on the official site\; dates can change.
+URL:https://www.acfas.org/education-professional-development/annual-scienti
+ fic-conference/call-for-abstracts
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: American College of Foot and Ankle Surg
+ eons (ACFAS) 86th Annual Scientific Conference
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: American College of Foot and Ankle Surge
+ ons (ACFAS) 86th Annual Scientific Conference
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AAOS 2027 - Late-Breaking Abstracts
+BEGIN:VEVENT
+UID:be3d3328d403b55085df@ortho-deadlines
+DTSTAMP:20261014T022337Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:DEADLINE: AAOS 2027 - Late-Breaking Abstracts
+DESCRIPTION:Abstract/submission deadline.\nMeeting: Mar 3-6\, 2027 - Veneti
+ an Convention & Expo Center\, Las Vegas\, NV\nSubmit / details: https://ww
+ w.aaos.org/annual/explore-the-program/abstracts-applications/\nAlways conf
+ irm the deadline on the official site\; dates can change.
+URL:https://www.aaos.org/annual/explore-the-program/abstracts-applications/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: AAOS 2027 - Late-Breaking Abstracts
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: AAOS 2027 - Late-Breaking Abstracts
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

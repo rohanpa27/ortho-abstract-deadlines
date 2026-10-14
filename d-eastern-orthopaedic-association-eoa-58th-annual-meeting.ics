@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Eastern Orthopaedic Association (EOA) 58th Annual Meeting
+BEGIN:VEVENT
+UID:a52679edb54253a0faba@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:DEADLINE: Eastern Orthopaedic Association (EOA) 58th Annual Meeting
+DESCRIPTION:Abstract/submission deadline.\nMeeting: Oct 20-23\, 2027 - JW M
+ arriott\, Nashville\, TN\nSubmit / details: https://www.eoa-assn.org/abstr
+ act-submission-policies-and-guidelines\nAlways confirm the deadline on the
+  official site\; dates can change.
+URL:https://www.eoa-assn.org/abstract-submission-policies-and-guidelines
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Eastern Orthopaedic Association (EOA) 5
+ 8th Annual Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Eastern Orthopaedic Association (EOA) 58
+ th Annual Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

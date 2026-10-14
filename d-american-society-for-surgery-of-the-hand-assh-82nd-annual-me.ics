@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:American Society for Surgery of the Hand (ASSH) 82nd Annual Me
+ eting
+BEGIN:VEVENT
+UID:229c1e16b6416e0f40e5@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:DEADLINE: American Society for Surgery of the Hand (ASSH) 82nd Annu
+ al Meeting
+DESCRIPTION:Abstract/submission deadline. 11:59 PM Central. Same date for s
+ cientific papers\, ePosters\, Video Theater\, Residents & Fellows\, sessio
+ n proposals. 'Subject to change'\nMeeting: Oct 7-9\, 2027 - Henry B. Gonza
+ lez Convention Center\, San Antonio\, TX\nSubmit / details: https://www.as
+ sh.org/annualmeeting/program/abstract-submissions\nAlways confirm the dead
+ line on the official site\; dates can change.
+URL:https://www.assh.org/annualmeeting/program/abstract-submissions
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: American Society for Surgery of the Han
+ d (ASSH) 82nd Annual Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: American Society for Surgery of the Hand
+  (ASSH) 82nd Annual Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

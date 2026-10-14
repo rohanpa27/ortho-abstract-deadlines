@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:International Society for the Advancement of Spine Surgery (IS
+ ASS27) 27th Annual Conference
+BEGIN:VEVENT
+UID:2c575fed0f6ec25cc93e@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:DEADLINE: International Society for the Advancement of Spine Surger
+ y (ISASS27) 27th Annual Conference
+DESCRIPTION:Abstract/submission deadline. Monday\, 11:59 PM Eastern\nMeetin
+ g: Apr 23-25\, 2027 (dates from third-party listing) - Loews Miami Beach\,
+  Miami Beach\, FL (venue confirmed on submission site)\nSubmit / details: 
+ https://isass.org/isass27/\nAlways confirm the deadline on the official si
+ te\; dates can change.
+URL:https://isass.org/isass27/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: International Society for the Advanceme
+ nt of Spine Surgery (ISASS27) 27th Annual Conference
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: International Society for the Advancemen
+ t of Spine Surgery (ISASS27) 27th Annual Conference
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

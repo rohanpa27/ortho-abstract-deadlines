@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:American Medical Society for Sports Medicine (AMSSM) 2027 - Ca
+ se Abstracts
+BEGIN:VEVENT
+UID:a69f90829baa1e8fb7bb@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:DEADLINE: American Medical Society for Sports Medicine (AMSSM) 2027
+  - Case Abstracts
+DESCRIPTION:Abstract/submission deadline. 11:00 AM Central\nMeeting: Apr 16
+ -21\, 2027 (location not stated on AMSSM page)\nSubmit / details: https://
+ www.amssm.org/Submissions.php\nAlways confirm the deadline on the official
+  site\; dates can change.
+URL:https://www.amssm.org/Submissions.php
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: American Medical Society for Sports Med
+ icine (AMSSM) 2027 - Case Abstracts
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: American Medical Society for Sports Medi
+ cine (AMSSM) 2027 - Case Abstracts
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

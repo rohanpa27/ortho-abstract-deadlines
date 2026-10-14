@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Orthopaedic Research Society (ORS) 2027 - Late-Breaking Abstra
+ cts
+BEGIN:VEVENT
+UID:28379303ea2fd895bfc0@ortho-deadlines
+DTSTAMP:20261014T022337Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:DEADLINE: Orthopaedic Research Society (ORS) 2027 - Late-Breaking A
+ bstracts
+DESCRIPTION:Abstract/submission deadline. Late-breaking window Oct 12-Nov 9
+ \, 2026 (main call closed Aug 31\, 2026)\nMeeting: Feb 19-23\, 2027 - Mosc
+ one West\, San Francisco\, CA\nSubmit / details: https://www.ors.org/futur
+ eannualmeetings/\nAlways confirm the deadline on the official site\; dates
+  can change.
+URL:https://www.ors.org/futureannualmeetings/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Orthopaedic Research Society (ORS) 2027
+  - Late-Breaking Abstracts
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Orthopaedic Research Society (ORS) 2027 
+ - Late-Breaking Abstracts
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

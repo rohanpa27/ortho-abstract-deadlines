@@ -1,0 +1,426 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ortho Abstract Deadlines
+BEGIN:VEVENT
+UID:25a6f6ac600d25933235@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:DEADLINE: American College of Foot and Ankle Surgeons (ACFAS) 86th 
+ Annual Scientific Conference
+DESCRIPTION:Abstract/submission deadline. 11:59 PM CST (closes TODAY)\nMeet
+ ing: Mar 11-15\, 2027 - Orange County Convention Center\, Orlando\, FL\nSu
+ bmit / details: https://www.acfas.org/education-professional-development/a
+ nnual-scientific-conference/call-for-abstracts\nAlways confirm the deadlin
+ e on the official site\; dates can change.
+URL:https://www.acfas.org/education-professional-development/annual-scienti
+ fic-conference/call-for-abstracts
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: American College of Foot and Ankle Surg
+ eons (ACFAS) 86th Annual Scientific Conference
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: American College of Foot and Ankle Surge
+ ons (ACFAS) 86th Annual Scientific Conference
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dbb889ed465cf787e4a6@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:DEADLINE: JRGOS Resident & Medical Student Abstract Competition (he
+ ld at AAOS 2027)
+DESCRIPTION:Abstract/submission deadline. 11:59 PM EST\nMeeting: During AAO
+ S 2027\, Mar 3-6\, 2027 - Las Vegas\, NV\nSubmit / details: https://www.gl
+ addensociety.org/jrgos-resident-and-medical-student-research-competition/\
+ nAlways confirm the deadline on the official site\; dates can change.
+URL:https://www.gladdensociety.org/jrgos-resident-and-medical-student-resea
+ rch-competition/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: JRGOS Resident & Medical Student Abstra
+ ct Competition (held at AAOS 2027)
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: JRGOS Resident & Medical Student Abstrac
+ t Competition (held at AAOS 2027)
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a243b7c7402e334b8b70@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:DEADLINE: Canadian Orthopaedic Association (COA) 2027 Annual Meetin
+ g (abstracts + symposium topics)
+DESCRIPTION:Abstract/submission deadline. Oct 20\, 2026 per context\; page 
+ gives no year or time (old tracker: 23:59 PT)\nMeeting: Jun 2-5\, 2027 - C
+ algary TELUS Convention Centre\, Calgary\, AB\nSubmit / details: https://c
+ oa-aco.org/annual-meeting/\nAlways confirm the deadline on the official si
+ te\; dates can change.
+URL:https://coa-aco.org/annual-meeting/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Canadian Orthopaedic Association (COA) 
+ 2027 Annual Meeting (abstracts + symposium topics)
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Canadian Orthopaedic Association (COA) 2
+ 027 Annual Meeting (abstracts + symposium topics)
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:be3d3328d403b55085df@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:DEADLINE: AAOS 2027 - Late-Breaking Abstracts
+DESCRIPTION:Abstract/submission deadline.\nMeeting: Mar 3-6\, 2027 - Veneti
+ an Convention & Expo Center\, Las Vegas\, NV\nSubmit / details: https://ww
+ w.aaos.org/annual/explore-the-program/abstracts-applications/\nAlways conf
+ irm the deadline on the official site\; dates can change.
+URL:https://www.aaos.org/annual/explore-the-program/abstracts-applications/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: AAOS 2027 - Late-Breaking Abstracts
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: AAOS 2027 - Late-Breaking Abstracts
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e414b5d98fbf52fb8174@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:DEADLINE: American College of Sports Medicine (ACSM) 74th Annual Me
+ eting
+DESCRIPTION:Abstract/submission deadline. Noon PT\nMeeting: Jun 1-4\, 2027 
+ - Indianapolis\, IN (dates/location from prior tracker\; ACSM page gives n
+ one)\nSubmit / details: https://acsm.org/events-general/annual-meeting/abs
+ tracts/\nAlways confirm the deadline on the official site\; dates can chan
+ ge.
+URL:https://acsm.org/events-general/annual-meeting/abstracts/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: American College of Sports Medicine (AC
+ SM) 74th Annual Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: American College of Sports Medicine (ACS
+ M) 74th Annual Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:28379303ea2fd895bfc0@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:DEADLINE: Orthopaedic Research Society (ORS) 2027 - Late-Breaking A
+ bstracts
+DESCRIPTION:Abstract/submission deadline. Late-breaking window Oct 12-Nov 9
+ \, 2026 (main call closed Aug 31\, 2026)\nMeeting: Feb 19-23\, 2027 - Mosc
+ one West\, San Francisco\, CA\nSubmit / details: https://www.ors.org/futur
+ eannualmeetings/\nAlways confirm the deadline on the official site\; dates
+  can change.
+URL:https://www.ors.org/futureannualmeetings/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Orthopaedic Research Society (ORS) 2027
+  - Late-Breaking Abstracts
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Orthopaedic Research Society (ORS) 2027 
+ - Late-Breaking Abstracts
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a69f90829baa1e8fb7bb@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:DEADLINE: American Medical Society for Sports Medicine (AMSSM) 2027
+  - Case Abstracts
+DESCRIPTION:Abstract/submission deadline. 11:00 AM Central\nMeeting: Apr 16
+ -21\, 2027 (location not stated on AMSSM page)\nSubmit / details: https://
+ www.amssm.org/Submissions.php\nAlways confirm the deadline on the official
+  site\; dates can change.
+URL:https://www.amssm.org/Submissions.php
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: American Medical Society for Sports Med
+ icine (AMSSM) 2027 - Case Abstracts
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: American Medical Society for Sports Medi
+ cine (AMSSM) 2027 - Case Abstracts
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:52637aeec0779392afce@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:DEADLINE: European Federation of National Associations of Orthopaed
+ ics and Traumatology (EFORT) 28th Annual Congress
+DESCRIPTION:Abstract/submission deadline. 23:59 CET\nMeeting: May 19-21\, 2
+ 027 - Megaron Athens International Conference Centre\, Athens\, Greece\nSu
+ bmit / details: https://congress.efort.org/\nAlways confirm the deadline o
+ n the official site\; dates can change.
+URL:https://congress.efort.org/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: European Federation of National Associa
+ tions of Orthopaedics and Traumatology (EFORT) 28th Annual Congress
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: European Federation of National Associat
+ ions of Orthopaedics and Traumatology (EFORT) 28th Annual Congress
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4f1445b5de0c1fbbe531@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:DEADLINE: American Medical Society for Sports Medicine (AMSSM) 2027
+  - Research Abstracts
+DESCRIPTION:Abstract/submission deadline. 11:00 AM Central\nMeeting: Apr 16
+ -21\, 2027 (location not stated on AMSSM page)\nSubmit / details: https://
+ www.amssm.org/Submissions.php\nAlways confirm the deadline on the official
+  site\; dates can change.
+URL:https://www.amssm.org/Submissions.php
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: American Medical Society for Sports Med
+ icine (AMSSM) 2027 - Research Abstracts
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: American Medical Society for Sports Medi
+ cine (AMSSM) 2027 - Research Abstracts
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c5a6f74572e3d62715a4@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:DEADLINE: Southern Orthopaedic Association (SOA) 2027 Annual Meetin
+ g
+DESCRIPTION:Abstract/submission deadline.\nMeeting: Jul 21-24\, 2027 - Wynd
+ ham Grand Clearwater Beach\, FL\nSubmit / details: https://www.soaassn.org
+ /abstract-submission-instructions\nAlways confirm the deadline on the offi
+ cial site\; dates can change.
+URL:https://www.soaassn.org/abstract-submission-instructions
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Southern Orthopaedic Association (SOA) 
+ 2027 Annual Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Southern Orthopaedic Association (SOA) 2
+ 027 Annual Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:560f253d89f4d18f2b28@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:DEADLINE: Western Orthopaedic Association (WOA) 91st Annual Meeting
+DESCRIPTION:Abstract/submission deadline.\nMeeting: Aug 4-7\, 2027 - Everli
+ ne Resort & Spa\, Olympic Valley\, CA\nSubmit / details: https://www.woa-a
+ ssn.org/abstract-submission\nAlways confirm the deadline on the official s
+ ite\; dates can change.
+URL:https://www.woa-assn.org/abstract-submission
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Western Orthopaedic Association (WOA) 9
+ 1st Annual Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Western Orthopaedic Association (WOA) 91
+ st Annual Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2c575fed0f6ec25cc93e@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:DEADLINE: International Society for the Advancement of Spine Surger
+ y (ISASS27) 27th Annual Conference
+DESCRIPTION:Abstract/submission deadline. Monday\, 11:59 PM Eastern\nMeetin
+ g: Apr 23-25\, 2027 (dates from third-party listing) - Loews Miami Beach\,
+  Miami Beach\, FL (venue confirmed on submission site)\nSubmit / details: 
+ https://isass.org/isass27/\nAlways confirm the deadline on the official si
+ te\; dates can change.
+URL:https://isass.org/isass27/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: International Society for the Advanceme
+ nt of Spine Surgery (ISASS27) 27th Annual Conference
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: International Society for the Advancemen
+ t of Spine Surgery (ISASS27) 27th Annual Conference
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:229c1e16b6416e0f40e5@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:DEADLINE: American Society for Surgery of the Hand (ASSH) 82nd Annu
+ al Meeting
+DESCRIPTION:Abstract/submission deadline. 11:59 PM Central. Same date for s
+ cientific papers\, ePosters\, Video Theater\, Residents & Fellows\, sessio
+ n proposals. 'Subject to change'\nMeeting: Oct 7-9\, 2027 - Henry B. Gonza
+ lez Convention Center\, San Antonio\, TX\nSubmit / details: https://www.as
+ sh.org/annualmeeting/program/abstract-submissions\nAlways confirm the dead
+ line on the official site\; dates can change.
+URL:https://www.assh.org/annualmeeting/program/abstract-submissions
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: American Society for Surgery of the Han
+ d (ASSH) 82nd Annual Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: American Society for Surgery of the Hand
+  (ASSH) 82nd Annual Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:376807f7f5c2cfd6b8ac@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:DEADLINE: Clinical Orthopaedic Society (COS) 115th Annual Meeting
+DESCRIPTION:Abstract/submission deadline.\nMeeting: Sep 22-25\, 2027 - San 
+ Diego\, CA\nSubmit / details: https://www.cosociety.org/abstract-submissio
+ n-policies-and-guidelines\nAlways confirm the deadline on the official sit
+ e\; dates can change.
+URL:https://www.cosociety.org/abstract-submission-policies-and-guidelines
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Clinical Orthopaedic Society (COS) 115t
+ h Annual Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Clinical Orthopaedic Society (COS) 115th
+  Annual Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a52679edb54253a0faba@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:DEADLINE: Eastern Orthopaedic Association (EOA) 58th Annual Meeting
+DESCRIPTION:Abstract/submission deadline.\nMeeting: Oct 20-23\, 2027 - JW M
+ arriott\, Nashville\, TN\nSubmit / details: https://www.eoa-assn.org/abstr
+ act-submission-policies-and-guidelines\nAlways confirm the deadline on the
+  official site\; dates can change.
+URL:https://www.eoa-assn.org/abstract-submission-policies-and-guidelines
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Eastern Orthopaedic Association (EOA) 5
+ 8th Annual Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Eastern Orthopaedic Association (EOA) 58
+ th Annual Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:07d22c74e5f8a50737d1@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:DEADLINE: Limb Lengthening and Reconstruction Society (LLRS) 36th A
+ nnual Scientific Meeting
+DESCRIPTION:Abstract/submission deadline.\nMeeting: Jul 22-24\, 2027 - West
+ in Michigan Avenue\, Chicago\, IL\nSubmit / details: https://www.llrs.org/
+ events/\nAlways confirm the deadline on the official site\; dates can chan
+ ge.
+URL:https://www.llrs.org/events/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Limb Lengthening and Reconstruction Soc
+ iety (LLRS) 36th Annual Scientific Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Limb Lengthening and Reconstruction Soci
+ ety (LLRS) 36th Annual Scientific Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

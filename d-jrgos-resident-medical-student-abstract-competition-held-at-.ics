@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:JRGOS Resident & Medical Student Abstract Competition (held at
+  AAOS 2027)
+BEGIN:VEVENT
+UID:dbb889ed465cf787e4a6@ortho-deadlines
+DTSTAMP:20261014T022337Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:DEADLINE: JRGOS Resident & Medical Student Abstract Competition (he
+ ld at AAOS 2027)
+DESCRIPTION:Abstract/submission deadline. 11:59 PM EST\nMeeting: During AAO
+ S 2027\, Mar 3-6\, 2027 - Las Vegas\, NV\nSubmit / details: https://www.gl
+ addensociety.org/jrgos-resident-and-medical-student-research-competition/\
+ nAlways confirm the deadline on the official site\; dates can change.
+URL:https://www.gladdensociety.org/jrgos-resident-and-medical-student-resea
+ rch-competition/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: JRGOS Resident & Medical Student Abstra
+ ct Competition (held at AAOS 2027)
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: JRGOS Resident & Medical Student Abstrac
+ t Competition (held at AAOS 2027)
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

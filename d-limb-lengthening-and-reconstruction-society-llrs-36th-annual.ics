@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Limb Lengthening and Reconstruction Society (LLRS) 36th Annual
+  Scientific Meeting
+BEGIN:VEVENT
+UID:07d22c74e5f8a50737d1@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:DEADLINE: Limb Lengthening and Reconstruction Society (LLRS) 36th A
+ nnual Scientific Meeting
+DESCRIPTION:Abstract/submission deadline.\nMeeting: Jul 22-24\, 2027 - West
+ in Michigan Avenue\, Chicago\, IL\nSubmit / details: https://www.llrs.org/
+ events/\nAlways confirm the deadline on the official site\; dates can chan
+ ge.
+URL:https://www.llrs.org/events/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: Limb Lengthening and Reconstruction Soc
+ iety (LLRS) 36th Annual Scientific Meeting
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: Limb Lengthening and Reconstruction Soci
+ ety (LLRS) 36th Annual Scientific Meeting
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

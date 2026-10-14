@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ortho Abstract Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:European Federation of National Associations of Orthopaedics a
+ nd Traumatology (EFORT) 28th Annual Congress
+BEGIN:VEVENT
+UID:52637aeec0779392afce@ortho-deadlines
+DTSTAMP:20261014T022338Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:DEADLINE: European Federation of National Associations of Orthopaed
+ ics and Traumatology (EFORT) 28th Annual Congress
+DESCRIPTION:Abstract/submission deadline. 23:59 CET\nMeeting: May 19-21\, 2
+ 027 - Megaron Athens International Conference Centre\, Athens\, Greece\nSu
+ bmit / details: https://congress.efort.org/\nAlways confirm the deadline o
+ n the official site\; dates can change.
+URL:https://congress.efort.org/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 month until deadline: European Federation of National Associa
+ tions of Orthopaedics and Traumatology (EFORT) 28th Annual Congress
+TRIGGER:-P29DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:1 week until deadline: European Federation of National Associat
+ ions of Orthopaedics and Traumatology (EFORT) 28th Annual Congress
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
